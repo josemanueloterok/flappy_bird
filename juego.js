@@ -59,7 +59,7 @@ function resize(){
 //bucle
 setInterval(loop, 1000 / FPS);
 function loop() {
-  ctx.clearRect(0, 0, 300, 530);
+  ctx.clearRect(0, 0, WIDTH, HEIGHT);
   //fondo
   ctx.drawImage(background, 0, 0);
   ctx.drawImage(suelo, 0, contexto.height - suelo.height);
